@@ -69,3 +69,4 @@ Open notebook and run all cells.
 - Drag & drop interface
 - Direct export to ML frameworks
 - Adding this stright to my Ml algorith
+- I can make this code Modular like using a function and ask for the user input on what to name it
