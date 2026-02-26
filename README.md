@@ -25,11 +25,12 @@ This project was created to simplify dataset organization for computer vision tr
 ---
 
 ## How It Works
-1. User uploads images
-2. Script detects JPEG/JPG files
-3. Images are renamed sequentially
-4. Dataset packaged into ZIP archive
-5. Ready for ML training
+1. The script promts the user  to uplode the relevent files
+2. Script detects JPEG/JPG files and filters them out
+3. It dynamically renames files to a Category_###.jpg format (such as Squirrel_001.jpg or Pigeon_001.jpg).
+4. It explicitly converts any .jpeg extensions to .jpg during the rename process for uniform dataset formatting.
+5. Dataset packaged and compressed into ZIP archive
+6. Ready for ML training
 
 ---
 
@@ -70,3 +71,4 @@ Open notebook and run all cells.
 - Direct export to ML frameworks
 - Adding this stright to my Ml algorith
 - I can make this code Modular like using a function and ask for the user input on what to name it
+- Automatic Image Resizing
