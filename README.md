@@ -3,7 +3,7 @@
 ## Overview
 A Google Colab-based Python tool that prepares image datasets for machine learning projects by automatically renaming images and packaging them into a downloadable ZIP file.
 
-This project was created to simplify dataset organization for computer vision training.
+This project was created to simplify dataset organization for computer Machine Learning.
 
 ---
 
